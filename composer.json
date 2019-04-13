@@ -1,0 +1,24 @@
+{
+    "name": "appcompass/firephp",
+    "description": "FirePHP Support for Laravel 4",
+    "type": "library",
+    "keywords": ["debugging","loggign"],
+    "homepage": "https://github.com/appcompass/firephp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jubair Saidi",
+            "email": "jubair.saidi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "illuminate/support": ">=4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "P3in\\Firephp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
